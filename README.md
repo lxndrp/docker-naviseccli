@@ -28,7 +28,7 @@ During the first run, `naviseccli` will (provided that you successfully login to
 
 If you happen to be lazy, feel free to take a look at the naviseccli.alias (using the `alias` BUILTIN of `sh(1)` under *NIX) or naviseccli.alias.cmd (using the `DOSKEY` utility under Windows) file; make sure that it gets processed by your shell, and you can run the command by it's name directly.
 
-Note that this is not a tutorial on how to use `naviseccli`; EMC did a great job in writing a comprehensive [user manual](https://www.emc.com/collateral/support-training/support/069001038-navisphere-cli.pdf); for quick help, try to run
+Note that this is not a tutorial on how to use `naviseccli`; EMC did a great job in writing a comprehensive [user manual](https://support.emc.com/docu10323_Navisphere-Command-Line-Interface-(CLI)-Reference.pdf); for quick help, try to run
 ```bash
 $ naviseccli -help
 ```
