@@ -7,7 +7,7 @@ A few things are required to use this utility on your machine:
  - a compatible EMC storage system (e.g. the EMC VNX family, the CLARiiON CX family, and various Celerra systems)
  - the [binary RPM package](https://download.emc.com/downloads/DL34038_Navisphere-CLI-(Linux-x32)-7.30.15.0.44.rpm) of `naviseccli` from EMC (you will actually have to login)
 
-Note that `naviseccli` **will not work** on modern (Unisphere-based, that is) systems.
+Beware that `naviseccli` **does not support** recent EMC storage systems. You might want to take a look [at my repository](https://github.com/lxndrp/docker-uemcli) for Unisphere-based systems.
 
 ## Installation and Usage
 Because I can't redistribute the original RPM, you have to build your own local Docker image, like so:
